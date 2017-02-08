@@ -1,7 +1,6 @@
 # foxmaps
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Simple Map with firebase integration. **Version 0.1, bugs may appear.**
 
 ## Prerequisites
 
@@ -12,6 +11,12 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+
+## Routes
+
+* `/` - index & about.
+* `/mapa` - shows the map full screen.
+* `/adicionar` - adds data to the map.
 
 ## Installation
 

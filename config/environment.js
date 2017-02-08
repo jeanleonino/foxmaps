@@ -20,6 +20,17 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    firebase: {
+      apiKey: 'AIzaSyA19PIVEG8Y1NfC9ypZx67pL9QdDl2tNXE',
+      authDomain: 'foxmaps-95391.firebaseapp.com',
+      databaseURL: 'https://foxmaps-95391.firebaseio.com',
+      storageBucket: 'foxmaps-95391.appspot.com',
+    }, 
+
+    googleLeaflet: {
+      apiKey: 'AIzaSyA19PIVEG8Y1NfC9ypZx67pL9QdDl2tNXE' // TODO
     }
   };
 
